@@ -24,6 +24,7 @@ const App = () => {
 					<About />
 					<Experience />
 					<Works />
+					<Works />
 					<Feedbacks />
 					{/* Footer */}
 					<div className="contact-footer relative z-0">

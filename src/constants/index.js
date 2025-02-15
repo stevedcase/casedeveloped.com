@@ -1,8 +1,10 @@
+import { Html } from "@react-three/drei";
 import {
 	cmsdevelopment,
 	frontend,
 	frameworks,
 	agile,
+	iqsolutions,
 	discovery,
 	lockheed,
 	c30yes,
@@ -23,6 +25,7 @@ import {
 	nfldfs,
 } from "../assets";
 
+// Navigation Links
 export const navLinks = [
 	{
 		id: "about",
@@ -42,26 +45,47 @@ export const navLinks = [
 	},
 ];
 
+// Services Data
 const services = [
 	{
 		title: "Front End Development",
 		icon: frontend,
+		description: "CSS3, HTML5, Javascript",
 	},
 	{
 		title: "CMS Development",
 		icon: cmsdevelopment,
+		description: "Drupal, Wordpress, Shopify",
 	},
 	{
 		title: "Libraries & Frameworks",
 		icon: frameworks,
+		description: "React, Gatsby, Three.js",
 	},
 	{
 		title: "Agile Workflows",
 		icon: agile,
+		description: "Asana, JIRA, Github",
 	},
 ];
 
+// Experiences Data
 const experiences = [
+	{
+		title: "Front End Drupal Developer",
+		company_name: "IQ Solutions",
+		company_url: "https://iqsolutions.com/",
+		company_location: "Bethesda, Maryland",
+		icon: iqsolutions,
+		iconBg: "#C32033",
+		date: "February 2024 — Present",
+		points: [
+			"Develop and maintain multiple large-scale Drupal 10 websites, ensuring scalability, security, and performance.",
+			"Implement custom themes and modules using SASS, JavaScript, jQuery, Twig and PHP to enhance website functionality.",
+			"Apply USWDS (United States Web Design System) standards to create accessible, user-friendly government and public sector web applications.",
+			"Utilize Git/GitHub for version control, collaborating with teams in an agile development environment hosted on Acquia Cloud.",
+		],
+	},
 	{
 		title: "Senior Software Engineer",
 		company_name: "Discovery Education",
@@ -69,7 +93,7 @@ const experiences = [
 		company_location: "Silver Spring, Maryland",
 		icon: discovery,
 		iconBg: "#017695",
-		date: "January 2019 - October 2023",
+		date: "January 2019 — October 2023",
 		points: [
 			"Integral part of the Corporate Education Partnerships (CEP) development team, delivering websites for renowned clients including Boeing, Home Depot, Discover, and 3M",
 			"Managed and maintained approximately two dozen client properties utilizing both the Drupal CMS (8/9) and the React-based Gatsby.js framework",
@@ -84,7 +108,7 @@ const experiences = [
 		company_location: "Crystal City, Virginia",
 		icon: lockheed,
 		iconBg: "#003478",
-		date: "March 2016 - November 2018",
+		date: "March 2016 — November 2018",
 		points: [
 			"Collaborated on a large-scale Drupal 8 GSA portal upgrade project for the Government Services Administration (GSA)",
 			"Optimized the GSA portal's front-end, creating Twig-based templates and enhancing the custom GSA theme",
@@ -100,7 +124,7 @@ const experiences = [
 		company_location: "Alexandria, Virginia",
 		icon: c30yes,
 		iconBg: "#C10230",
-		date: "November 2011 - February 2016",
+		date: "November 2011 — February 2016",
 		points: [
 			"Led development projects, overseeing time management, conducting code reviews, and providing training for both in-house developers and external contractors",
 			"Managed front-end development, ensuring cross-browser compatibility, conducting weekly code reviews, and collaborating with the creative department to meet client expectations",
@@ -115,7 +139,7 @@ const experiences = [
 		company_location: "Washington, DC",
 		icon: fleishmanhillard,
 		iconBg: "#528DD7",
-		date: "October 2009 - November 2011",
+		date: "October 2009 — November 2011",
 		points: [
 			"Created and managed web applications in .NET, Drupal, and WordPress, aligning with technical and client specification",
 			"Collaborated with cross-functional teams, encompassing designers, product managers, and developers, to craft top-tier products",
@@ -125,6 +149,7 @@ const experiences = [
 	},
 ];
 
+// Testimonials Data
 const testimonials = [
 	{
 		testimonial:
@@ -155,6 +180,7 @@ const testimonials = [
 	},
 ];
 
+// Projects Data
 const projects = [
 	{
 		name: "3M Young Scientist Lab",

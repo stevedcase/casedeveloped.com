@@ -129,6 +129,10 @@
 	}
 }
 
+.scroll-ball {
+	background: #804dee;
+}
+
 /* Experience Timeline Styles */
 @media (max-width: 768px) {
 	.experience-intro {

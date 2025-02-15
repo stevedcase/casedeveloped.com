@@ -13,6 +13,7 @@ import close from "./general/close.svg";
 {
 	/* Company Imports */
 }
+import iqsolutions from "./company/iqsolutions.png";
 import discovery from "./company/discovery.png";
 import lockheed from "./company/lockheed.png";
 import c30yes from "./company/c30yes.png";
@@ -56,6 +57,7 @@ export {
 	website,
 	menu,
 	close,
+	iqsolutions,
 	discovery,
 	lockheed,
 	c30yes,

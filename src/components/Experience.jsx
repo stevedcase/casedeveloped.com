@@ -2,16 +2,15 @@ import React from "react";
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-
 import "react-vertical-timeline-component/style.min.css";
-
 import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
-import resume from "../assets/docs/Steve-Case-Resume.pdf";
+import resume from "../assets/docs/Steve-Case-Resume-2025.pdf";
 import resumeicon from "../assets/general/resume-icon.png";
 
+// Experience Card Component
 const ExperienceCard = ({ experience }) => {
 	return (
 		<VerticalTimelineElement
@@ -48,6 +47,7 @@ const ExperienceCard = ({ experience }) => {
 	);
 };
 
+// Experience Component
 const Experience = () => {
 	return (
 		<>

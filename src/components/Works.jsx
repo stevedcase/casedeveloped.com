@@ -1,13 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
 import HoverVideoPlayer from "react-hover-video-player";
-
 import { styles } from "../styles";
 import { website } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
+// Project Card Component
 const ProjectCard = ({ index, name, description, tags, video, videothumb, project_link }) => {
 	return (
 		<motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className="project-card">
@@ -51,6 +51,7 @@ const ProjectCard = ({ index, name, description, tags, video, videothumb, projec
 	);
 };
 
+// Works Component
 const Works = () => {
 	return (
 		<>

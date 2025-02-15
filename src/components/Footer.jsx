@@ -31,7 +31,7 @@ const Footer = () => {
 					</li>
 				</ul>
 			</div>
-			<div className="copyright">Case Developed, LLC &copy; 2024</div>
+			<div className="copyright">Case Developed, LLC &copy; 2025</div>
 		</div>
 	);
 };

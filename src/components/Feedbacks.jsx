@@ -1,12 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
 
+// Feedback Card Component
 const FeedbackCard = ({ index, testimonial, name, linkedinurl, designation, company, image }) => (
 	<motion.div variants={fadeIn("", "spring", index * 0.5, 0.75)} className="testcard bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full">
 		<p className="text-white font-black text-[48px]">"</p>
@@ -33,6 +33,7 @@ const FeedbackCard = ({ index, testimonial, name, linkedinurl, designation, comp
 	</motion.div>
 );
 
+// Feedbacks Component
 const Feedbacks = () => {
 	return (
 		<div className={`mt-12 bg-black-100 rounded-[20px]`}>
